@@ -29,4 +29,6 @@ Articles:
 23. [Java: Microservices Architecture Patterns, Exploring the Essential](https://medium.com/@alxkm/microservices-architecture-patterns-exploring-the-essential-27318b72c88f)
 24. [Java: Mastering SOLID Principles](https://medium.com/@alxkm/java-mastering-solid-principles-ab2ccda591a3)
 25. [Unlocking the Power of Global Locks. A Java and Spring Perspective](https://medium.com/@alxkm/unlocking-the-power-of-global-locks-a-java-and-spring-perspective-48e653f8ff7d)
+26. [Mastering Task Scheduling in Spring Boot: A Comprehensive Guide to @Scheduled with @Asyc](https://medium.com/@alxkm/mastering-task-scheduling-in-spring-boot-a-comprehensive-guide-to-scheduled-with-asyc-761bb6193fc6)
+27. [Mastering Synchronization: Best Practices and Patterns in Java](https://medium.com/@alxkm/mastering-synchronization-best-practices-and-patterns-in-java-86214b53211d)
 []()
