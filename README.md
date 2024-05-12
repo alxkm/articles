@@ -31,4 +31,9 @@ Articles:
 25. [Unlocking the Power of Global Locks. A Java and Spring Perspective](https://medium.com/@alxkm/unlocking-the-power-of-global-locks-a-java-and-spring-perspective-48e653f8ff7d)
 26. [Mastering Task Scheduling in Spring Boot: A Comprehensive Guide to @Scheduled with @Asyc](https://medium.com/@alxkm/mastering-task-scheduling-in-spring-boot-a-comprehensive-guide-to-scheduled-with-asyc-761bb6193fc6)
 27. [Mastering Synchronization: Best Practices and Patterns in Java](https://medium.com/@alxkm/mastering-synchronization-best-practices-and-patterns-in-java-86214b53211d)
-[]()
+28. [Navigating Java’s Multithreading Terrain Pt. 1. Dining Philosophers](https://medium.com/@alxkm/navigating-javas-multithreading-terrain-dining-philosophers-34f1385e2150)
+29. [Navigating Java’s Multithreading Terrain Pt. 2](https://medium.com/@alxkm/navigating-javas-multithreading-terrain-part-2-fd0d541a973c)
+30. [Unlocking Concurrent Power: A Guide to java.util.concurrent Pt. 1](https://medium.com/@alxkm/unlocking-concurrent-power-a-guide-to-java-util-concurrent-pt-1-b1342edadad1)
+31. [Unlocking Concurrent Power: A Guide to java.util.concurrent Pt. 2](https://medium.com/@alxkm/unlocking-concurrent-power-a-guide-to-java-util-concurrent-pt-2-056f1da1e74a)
+32. [Concurrency in Java: Best Practices and Performance Optimization](https://medium.com/@alxkm/concurrency-in-java-best-practices-and-performance-optimization-0dfd990f413b)
+
