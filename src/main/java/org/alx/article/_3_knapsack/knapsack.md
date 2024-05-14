@@ -106,8 +106,8 @@ A(0, s) = 0
 
 There are 2 options to find A(k, s):
 
-- If subject k didn’t get into the backpack. Then A(k, s) equals the maximum cost of a backpack with the same capacity and set of admissible items {n1, n2, …, n_k−1}, that is, A(k, s) = A(k − 1, s)
-- If k got into the backpack. Then A(k, s) equals the maximum cost of the backpack, where weight s reduce by weight k-th item and the set of admissible items {n1, n2, …, n_k−1} plus cost k,
+1.  If subject k didn’t get into the backpack. Then A(k, s) equals the maximum cost of a backpack with the same capacity and set of admissible items {n1, n2, …, n_k−1}, that is, A(k, s) = A(k − 1, s)
+2. If k got into the backpack. Then A(k, s) equals the maximum cost of the backpack, where weight s reduce by weight k-th item and the set of admissible items {n1, n2, …, n_k−1} plus cost k,
 A(k − 1,s − w_k) + p_k
 
 The final formula will look like:
