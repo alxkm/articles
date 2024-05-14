@@ -1,6 +1,9 @@
 # Fundamentals of Logging in Java Applications
 ## 
 Logging plays a crucial role in modern Java applications, serving as a important component for monitoring and troubleshooting. In this article, we’ll delve into key aspects of logging that are essential for applications smooth operation and maintenance. This topic holds significant importance in ensuring the reliability and efficiency of applications.
+
+![image](source/1_S6PG9Mf4HjXKYn0Mb9Netw.jpeg "Source")
+
 ### Choose a Logging Framework
 
 Java offers several logging frameworks like Log4j, Logback, and java.util.logging. Choose one based on your requirements and preferences.
