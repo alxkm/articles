@@ -1,5 +1,7 @@
 # Radix Sort: The Most Efficient Number Sorting
 
+![image](source/1_bOZUhcbmQLVVN3cyi6xTDg.jpeg)
+
 Organizing data through sorting is essential for optimizing program efficiency. When dealing with large volumes of data, effective organization facilitates quick searches and processing. While the impact of sorting may be negligible for small datasets, its significance becomes pronounced when managing hundreds of thousands of data pieces. The choice of sorting algorithm greatly influences the time taken for this process.
 
 If you want to sort only numbers you can choose radix sort.
