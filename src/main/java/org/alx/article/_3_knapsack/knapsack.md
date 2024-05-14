@@ -1,5 +1,7 @@
 # Dynamic programming. Knapsack problem
 
+![image](source/1_JX28m2KQ_Hx-ZDfSIWfebw.jpeg)
+
 Given by N items, each item has mass w_i > 0 {w_1, w_2, …, w_n},
 and cost p_i > 0 {c_1, c_3, …, c_n}.
 We must choose a subset of these items where the combined weight doesn’t surpass a specified value W (backpack capacity), and the total value is maximized.
