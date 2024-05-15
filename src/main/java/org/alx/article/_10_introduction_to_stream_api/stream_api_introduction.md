@@ -1,5 +1,7 @@
 # Introduction to Java Stream API for Beginners
 
+![image](source/1_gQ15sOJfUKKYA24BOnAdjg.jpeg)
+
 Introduction
 
 Java Stream API is a powerful tool introduced in Java 8 for processing collections of objects in a functional style. It provides a concise and expressive way to perform operations such as filtering, mapping, and reducing on collections. In this article, we’ll explore the basics of the Java Stream API and learn how to use it effectively.
@@ -9,6 +11,8 @@ Firstly we need to clarify basic moments and terminology of Stream API.
 A Stream in Java represents a sequence of elements from a source, such as a collection, an array, or an I/O resource. It does not store data; instead, it provides a pipeline for processing data elements sequentially or in parallel.
 
 Streams can be created from various data sources using factory methods provided by the Stream interface. Common methods for creating streams include stream() and parallelStream() methods of collections and arrays.
+
+![image](source/1_uex3rZhPEZJmBs1GiwAnBw.jpeg)
 
 
 Stream operations divided by Intermediate and Terminal Operations:
@@ -165,5 +169,4 @@ So sorted can operates on a parallel stream also.
 
 Java Stream API provides a functional and declarative way to process collections of data. By leveraging streams, developers can write concise and expressive code to perform complex operations on data sets. Understanding the basics of the Java Stream API is essential for writing efficient and readable code in modern Java applications.
 
-
-
+Full example you can find on [Github](https://github.com/alxkm/articles/blob/master/src/main/java/org/alx/article/_10_introduction_to_stream_api/StreamApiExample.java).
