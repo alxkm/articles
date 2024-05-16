@@ -1,5 +1,7 @@
 # Exploring the Biggest Rectangle in a Histogram
 
+![image](source/1_1CnUWMYBKAFC9PRhA7rESA.jpeg)
+
 Let’s talk about a tricky problem called 84. Largest Rectangle in Histogram. We’ll learn some cool tricks that can help with other tasks too. Come join us as we figure out how to solve this problem step by step, using easy methods to find the biggest rectangle in the histogram. Welcome to our adventure of exploring big rectangles in histograms!
 
 Firstly let’s describe the problem:
@@ -7,6 +9,8 @@ Firstly let’s describe the problem:
 “Given an array of integers heights representing the histogram's bar height where the width of each bar is 1, return the area of the largest rectangle in the histogram.”
 
 Let’s see first example:
+
+![image](source/1_kYVgedP-n5Q0kLvbnwM4mw.jpeg)
 
 Here we see that the max result is 10.
 
@@ -116,3 +120,5 @@ class MaximalRectangleExample {
     }
 }
 ```
+
+Full example you can find on [Github](https://github.com/alxkm/articles/tree/master/src/main/java/org/alx/article/_13_exploring_the_biggest_rectangle_in_a_histogram), [Largest Rectangle](https://github.com/alxkm/articles/blob/master/src/main/java/org/alx/article/_13_exploring_the_biggest_rectangle_in_a_histogram/LargestRectangleInHistogramSimpleExample.java) and [Maximal Rectangle](https://github.com/alxkm/articles/blob/master/src/main/java/org/alx/article/_13_exploring_the_biggest_rectangle_in_a_histogram/MaximalRectangleExample.java).
