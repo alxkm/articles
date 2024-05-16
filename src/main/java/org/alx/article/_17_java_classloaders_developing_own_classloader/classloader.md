@@ -4,6 +4,8 @@ Introduction
 
 Are you curious about the inner workings of Java applications and how they manage to load classes dynamically? Dive into the fascinating world of Java Classloaders and take control of the class loading process by developing your very own Classloader.
 
+![image](source/java_logo.jpeg)
+
 In this article, we’ll embark on an enlightening journey through the intricacies of Java Classloaders. We’ll uncover the crucial role they play in the Java Virtual Machine (JVM) and how they facilitate the dynamic loading of classes during runtime. Understanding Classloaders is essential for Java developers looking to optimize application performance, implement custom class loading strategies, and delve deeper into the JVM’s runtime behavior.
 
 By delving into the development of your own Classloader, you’ll gain invaluable insights into the mechanisms behind class loading in Java. You’ll learn how to customize the class loading process to suit your application’s unique requirements, whether it’s loading classes from unconventional sources, implementing custom class loading policies, or enhancing security measures.
@@ -19,6 +21,8 @@ Are you ready to elevate your Java development skills and become a master of Cla
 
 The Java ClassLoader is an abstract class found within the java.lang package. It serves the purpose of loading classes from various resources dynamically during runtime. Essentially, the Java ClassLoader facilitates the linking process within the JVM as it loads classes according to the program’s requirements. Additionally, if a loaded class has dependencies on other classes, those dependencies are also loaded. When a class loading request is made, it is delegated to its parent, ensuring consistency and uniqueness within the runtime environment. The role of the Java ClassLoader is indispensable for the execution of Java programs.
 
+![image](source/jvm_classloader_scheme.jpeg)
+
 The foundation of Java ClassLoader rests upon three core principles: Delegation, Visibility, and Uniqueness.
 
 - Delegation: Java ClassLoader follows the principle of delegation, where it delegates the task of loading classes to its parent ClassLoader before attempting to load them itself. This hierarchical structure ensures that class loading requests are handled systematically, allowing for flexibility and consistency in the loading process.
@@ -32,6 +36,8 @@ These principles collectively define the behavior and functionality of Java Clas
 - Bootstrap ClassLoader: This is the first ClassLoader that is responsible for loading core Java classes, such as those from the java.lang package, from the JDK's rt.jar file or equivalent. It is implemented in native code and is not written in Java. It forms the foundation upon which the Java runtime environment is built.
 - Extension ClassLoader: Also known as the “Extension ClassLoader,” it is responsible for loading classes from the extension directories ($JAVA_HOME/jre/lib/ext or any other directories specified by the java.ext.dirs system property). It loads classes required by Java extension libraries, which are packages that provide additional functionality to the core Java platform.
 - System ClassLoader: Also known as the “Application ClassLoader,” it is responsible for loading classes from the application classpath. It loads classes from directories and JAR files specified by the java.class.path system property. This ClassLoader is typically used for loading application-specific classes and resources.
+
+![image](source/jvm_classloader_brief_scheme.jpeg)
 
 ### How ClassLoader works in Java
 
@@ -116,6 +122,6 @@ Replace “/path/to/class/files” with the path to the directory containing you
 
 This example demonstrates a simple custom class loader that loads class files from a specified directory. It extends the ClassLoader class and overrides the findClass() method to load class bytes from the file system and define the class using the defineClass() method. Finally, it demonstrates how to use the custom class loader to load and instantiate a class dynamically at runtime.
 
-
+Full example you can find on [Github](https://github.com/alxkm/articles/blob/master/src/main/java/org/alx/article/_17_java_classloaders_developing_own_classloader/CustomClassLoader.java).
 
 
