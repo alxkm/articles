@@ -1,8 +1,12 @@
 # Java: Double check locking pattern
 
+![image](source/java_logo.jpeg)
+
 There are a lot article about double check locking pattern, but maybe this article will add more understanding to this pattern.
 
 Double-checked locking is a design pattern used to reduce the overhead of acquiring locks by first testing the locking condition without holding the lock. If the condition passes, the lock is acquired, and the condition is checked again within the critical section. Here’s a Java example demonstrating double-checked locking:
+
+![image](source/singleton_scheme.jpeg)
 
 ```java
 public class Singleton {
@@ -113,3 +117,5 @@ When working with double-checked locking in Java, there are several important po
 - Performance Considerations: While double-checked locking can reduce synchronization overhead in certain scenarios, it’s important to measure and profile performance to ensure that the benefits outweigh the complexity and risks introduced by the pattern. In many cases, simpler alternatives may offer comparable or better performance with less risk.
 
 By understanding these aspects and considering the trade-offs involved, developers can effectively use double-checked locking when appropriate or choose alternative concurrency patterns for safer and more maintainable code.
+
+Full example you can find on [Github](https://github.com/alxkm/articles/blob/master/src/main/java/org/alx/article/_18_java_double_check_locking_pattern/Singleton.java).
