@@ -1,5 +1,7 @@
 # Java: JVM, minimum what every developer should know
 
+![image](source/java_logo.jpeg)
+
 As a Java developer, having a fundamental understanding of the Java Virtual Machine (JVM) is paramount. The JVM serves as the cornerstone of the Java platform, providing the runtime environment necessary for executing Java applications across various devices and operating systems.
 
 
@@ -7,6 +9,7 @@ At its core, the JVM is a robust and sophisticated software implementation that 
 
 In essence, familiarity with the JVM is not merely a technical prerequisite but a foundational skill that equips Java developers with the expertise needed to build robust, scalable, and high-performance software solutions in the Java ecosystem.
 
+![image](source/jvm_architecture.jpeg)
 
 What is the Java Virtual Machine (JVM) and its role in Java?
 Firstly let’s define for what JVM is responsible. JVM is responsible for several key tasks that enable the execution of Java applications:
