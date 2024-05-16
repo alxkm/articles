@@ -1,5 +1,8 @@
 # Understanding Variance in Java: Covariant and Contravariant Types Explained
 
+![image](source/1_gQ15sOJfUKKYA24BOnAdjg.jpeg)
+
+
 In Java, covariant and contravariant types are concepts related to subtyping and inheritance. They deal with the relationship between types when dealing with inheritance hierarchies and method overriding.
 
 ### Covariant Types
@@ -209,7 +212,7 @@ We attempt to create an ArrayList of Dog objects and assign it to a List<Animal>
 
 This results in a compiler error because generics in Java are also invariant. Even though Dog is a subtype of Animal, you cannot assign a List<Dog> to a reference of type List<Animal>. This is to prevent potential type safety issues at runtime.
 
-
+Full example you can find on [Github](https://github.com/alxkm/articles/tree/master/src/main/java/org/alx/article/_12_variance_in_java).
 
 
 
