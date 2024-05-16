@@ -2,7 +2,7 @@
 ## 
 Logging plays a crucial role in modern Java applications, serving as a important component for monitoring and troubleshooting. In this article, we’ll delve into key aspects of logging that are essential for applications smooth operation and maintenance. This topic holds significant importance in ensuring the reliability and efficiency of applications.
 
-![image](source/1_S6PG9Mf4HjXKYn0Mb9Netw.jpeg "Java application libraries logging structure")
+![image](source/loggers_scheme.jpeg "Java application libraries logging structure")
 
 ### Choose a Logging Framework
 

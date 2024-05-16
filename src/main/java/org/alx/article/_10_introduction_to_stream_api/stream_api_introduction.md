@@ -1,6 +1,6 @@
 # Introduction to Java Stream API for Beginners
 
-![image](source/1_gQ15sOJfUKKYA24BOnAdjg.jpeg)
+![image](source/java_logo.jpeg)
 
 Introduction
 
@@ -12,7 +12,7 @@ A Stream in Java represents a sequence of elements from a source, such as a coll
 
 Streams can be created from various data sources using factory methods provided by the Stream interface. Common methods for creating streams include stream() and parallelStream() methods of collections and arrays.
 
-![image](source/1_uex3rZhPEZJmBs1GiwAnBw.jpeg)
+![image](source/stream_main_methods.jpeg)
 
 
 Stream operations divided by Intermediate and Terminal Operations:

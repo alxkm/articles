@@ -1,6 +1,6 @@
 # Unlocking Productivity: Exploring Essential IntelliJ IDEA Plugins
 
-![image](source/1_DGgCNStVGbcvbu5SsaBtQw.jpeg)
+![image](source/intellij_idea_logo.jpeg)
 
 IntelliJ IDEA is an incredible IDE that enables the automation of various coding routines. In order to further enhance your productivity, I have curated a selection of plugins specifically designed to expedite Java development within IntelliJ IDEA.
 

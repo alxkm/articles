@@ -1,6 +1,6 @@
 # Dynamic programming. Knapsack problem
 
-![image](source/1_JX28m2KQ_Hx-ZDfSIWfebw.jpeg)
+![image](source/knapsack_title_logo.jpeg)
 
 Given by N items, each item has mass w_i > 0 {w_1, w_2, …, w_n},
 and cost p_i > 0 {c_1, c_3, …, c_n}.

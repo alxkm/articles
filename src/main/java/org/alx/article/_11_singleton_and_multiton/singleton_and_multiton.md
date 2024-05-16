@@ -1,6 +1,6 @@
 # Java: Singleton vs Multiton
 
-![image](source/1_6soQ2NIg3jUmne7u1en7uw.jpeg)
+![image](source/singleton_logo.jpeg)
 
 ### Introduction
 When designing Java applications, developers often encounter scenarios where they need to restrict the instantiation of a class to a single instance. The Singleton and Multiton patterns are two design patterns that address this requirement. While both patterns ensure that a class has only one instance, they differ in their approach and applicability. In this article, we’ll explore the Singleton and Multiton patterns in Java, compare their characteristics, and discuss situations where each pattern is most suitable.

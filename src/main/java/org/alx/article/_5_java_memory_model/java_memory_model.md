@@ -14,7 +14,7 @@ Despite the Java Virtual Machine (JVM) being responsible for memory management a
 
 In a Java program, memory is split into two main sections: the Heap and the Metaspace (formerly known as PermGen starting from Java 8).
 
-![image](source/1_LVMsgMTkJzUzmp_YclOmIw.jpeg "Java memory model basic structure")
+![image](source/java_memory_brief_scheme.jpeg "Java memory model basic structure")
 
 ### Metaspace
 
@@ -33,7 +33,7 @@ You can manage the Metaspace memory region using the following JVM flags:
 
 The heap in Java consists of dynamically allocated memory where objects are stored during the execution of a Java program. It is a region of the computer’s memory that is managed by the Java Virtual Machine (JVM). The heap is used to allocate memory for objects created using the “new” keyword, as well as for data structures such as arrays and collections.
 
-![image](source/1_Xs6AK-Q5_hP9fSHxviy0OQ.jpeg "Java memory model structure")
+![image](source/java_memory_scheme.jpeg "Java memory model structure")
 
 The heap is divided into two main areas:
 
@@ -66,7 +66,7 @@ To tune the Java heap:
 - -XX:NewSize: Specifies the minimum size of the Eden segment in the Young Generation.
 - -XX:MaxNewSize: Specifies the maximum size of the Eden segment in the Young Generation.
 
-![image](source/1_iu2q9yLXLqIQ7skX8uhFkw.jpeg "Java memory model with options")
+![image](source/java_memory_detail_scheme.jpeg "Java memory model with options")
 
 ### Why do we need to Monitor Java Memory
 

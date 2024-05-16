@@ -2,7 +2,7 @@
 
 Binary search is a fundamental algorithm used in computer science for searching elements in sorted arrays or lists. Its efficiency and simplicity make it a widely used and essential tool in programming, especially when dealing with large datasets.
 
-![image](source/1_R-4_7yJiJw6GqkEJhzhegg.jpeg)
+![image](source/binary_search_scheme.jpeg)
 
 In this article, we will delve into the concept of binary search, exploring its principles, implementation, and applications. Whether you’re a beginner looking to understand the basics or an experienced programmer seeking a refresher, this guide aims to provide a comprehensive overview of binary search.
 

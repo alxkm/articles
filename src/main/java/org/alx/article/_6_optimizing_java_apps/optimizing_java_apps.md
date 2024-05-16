@@ -1,10 +1,10 @@
 
 # Top Strategies for Optimizing Java Application Performance: Practical Advice and Best Practices
 
-![image](source/1_gQ15sOJfUKKYA24BOnAdjg.jpeg "Source")
+![image](source/java_logo.jpeg "Source")
 Source
 
-![image](source/1_9yWmP6PF8zGv_4aRdnkJFg.jpeg "Java applications optimization important topics")
+![image](source/performance_scheme.jpeg "Java applications optimization important topics")
 
 
 For Java application performance tuning is very important. This article covers some questions:
@@ -24,7 +24,7 @@ Performance tuning involves optimizing a Java application to enhance its speed, 
 
 ### Optimization Techniques
 
-![image](source/1_jAeeJ8ITtP2HV3uno2pnRQ.jpeg "Brief list of optimization techniques")
+![image](source/optimization_technics.jpeg "Brief list of optimization techniques")
 
 - Use Efficient Data Structures and Algorithms: Choose the most suitable data structures and algorithms for your application’s requirements. Opt for efficient data structures like HashMap, ArrayList, and HashSet, and algorithms with optimal time and space complexity. Also pay attention for selecting right and efficient library objects, like StringBuilder and StringBuffer.
 - Minimize Object Creation: Reduce unnecessary object creation by reusing objects, using object pooling, or employing immutable objects where possible. Excessive object creation can lead to increased memory usage and garbage collection overhead.

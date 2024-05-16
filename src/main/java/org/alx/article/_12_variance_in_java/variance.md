@@ -1,6 +1,6 @@
 # Understanding Variance in Java: Covariant and Contravariant Types Explained
 
-![image](source/1_gQ15sOJfUKKYA24BOnAdjg.jpeg)
+![image](source/java_logo.jpeg)
 
 
 In Java, covariant and contravariant types are concepts related to subtyping and inheritance. They deal with the relationship between types when dealing with inheritance hierarchies and method overriding.

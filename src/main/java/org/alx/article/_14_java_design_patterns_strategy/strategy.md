@@ -1,6 +1,6 @@
 # Java Design Patterns: Strategy
 
-![image](source/1_MKJ1IhJkptBXodaUmK8ikA.jpeg)
+![image](source/java_logo.jpeg)
 
 In Java, the Strategy pattern is a behavioral design pattern that allows you to define a family of algorithms, encapsulate each one of them, and make them interchangeable. It enables clients to choose an algorithm from a family of algorithms at runtime without altering its structure.
 
@@ -17,7 +17,7 @@ Overall, the Strategy pattern promotes better code organization, flexibility, an
 
 Strategy pattern in Java:
 
-![image](source/1_zT9fV7f9rdXXji1m8VcyNg.jpeg)
+![image](source/strategy_diagram.jpeg)
 
 Let’s define the Strategy Interface: This interface declares a method that all concrete strategy classes will implement.
 

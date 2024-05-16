@@ -1,6 +1,6 @@
 # Exploring the Biggest Rectangle in a Histogram
 
-![image](source/1_1CnUWMYBKAFC9PRhA7rESA.jpeg)
+![image](source/leetcode_logo.jpeg)
 
 Let’s talk about a tricky problem called 84. Largest Rectangle in Histogram. We’ll learn some cool tricks that can help with other tasks too. Come join us as we figure out how to solve this problem step by step, using easy methods to find the biggest rectangle in the histogram. Welcome to our adventure of exploring big rectangles in histograms!
 
@@ -10,7 +10,7 @@ Firstly let’s describe the problem:
 
 Let’s see first example:
 
-![image](source/1_kYVgedP-n5Q0kLvbnwM4mw.jpeg)
+![image](source/histogram_scheme.jpeg)
 
 Here we see that the max result is 10.
 
