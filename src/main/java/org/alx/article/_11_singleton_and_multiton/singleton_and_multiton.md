@@ -1,19 +1,18 @@
 # Java: Singleton vs Multiton
 
+![image](source/1_6soQ2NIg3jUmne7u1en7uw.jpeg)
 
-Introduction
+### Introduction
 When designing Java applications, developers often encounter scenarios where they need to restrict the instantiation of a class to a single instance. The Singleton and Multiton patterns are two design patterns that address this requirement. While both patterns ensure that a class has only one instance, they differ in their approach and applicability. In this article, we’ll explore the Singleton and Multiton patterns in Java, compare their characteristics, and discuss situations where each pattern is most suitable.
 
-Singleton Pattern
+### Singleton Pattern
 The Singleton pattern is one of the simplest design patterns and is used to ensure that a class has only one instance and provides a global point of access to that instance. In Java, the Singleton pattern typically involves:
 
-- Declaring a private constructor to prevent instantiation of the class from external sources.
-- Providing a static method that returns the sole instance of the class.
-- Lazily initializing the instance upon the first invocation of the static method.
+1. Declaring a private constructor to prevent instantiation of the class from external sources.
+2. Providing a static method that returns the sole instance of the class.
+3. Lazily initializing the instance upon the first invocation of the static method.
 
 Here’s a basic implementation of the Singleton pattern in Java:
-
-
 
 ```java
 public class Singleton {
@@ -193,3 +192,5 @@ Flexibility:
 
 ### Conclusion
 Both the Singleton and Multiton patterns are useful in managing the instantiation of classes in Java applications. The Singleton pattern ensures that a class has only one instance, while the Multiton pattern extends this concept to manage multiple instances, each identified by a unique key. When deciding between the two patterns, consider the specific requirements of your application and choose the pattern that best fits the desired behavior and usage scenarios.
+
+Full example of  [Singleton](https://github.com/alxkm/articles/blob/master/src/main/java/org/alx/article/_11_singleton_and_multiton/Singleton.java) and [Multiton](https://github.com/alxkm/articles/blob/master/src/main/java/org/alx/article/_11_singleton_and_multiton/Multiton.java) you can find on [Github](https://github.com/alxkm/articles/blob/master/src/main/java/org/alx/article/_11_singleton_and_multiton/ThreadSafeSingletonWithHolder.java).
