@@ -1,8 +1,12 @@
 # Java: Functional Programming with Vavr
 
+![image](source/1_MKJ1IhJkptBXodaUmK8ikA.jpeg)
+
 In today’s programming landscape, functional programming has become a common paradigm embraced by almost all modern high-level programming languages, including Java. Since its version 8, Java introduced powerful tools such as streams and lambda expressions, enabling developers to construct their own monads. However, the initial implementation of these features wasn’t flawless, prompting the community to respond by creating their own libraries. In this article, I’ll focus on one such library that greatly enhances functional programming in Java applications. As many are already aware, this library is Vavr.
 
 Vavr (formerly known as Javaslang) is a functional programming library for Java that provides immutable collections, functional programming concepts, and other utilities to enhance Java’s capabilities for functional programming. Vavr’s Stream is a functional replacement for Java’s Stream API, providing additional features and capabilities.
+
+![image](source/1_YF4ZCgXySadi96k4v12U2w.jpeg)
 
 Here’s an brief overview of Vavr’s most useful Vavr components.
 
