@@ -2,12 +2,16 @@
 
 Some aspects of event driven architecture with examples
 
+![image](source/java_logo.jpeg)
+
 Nowadays, one of the most important and interesting architecture patterns is event-driven architecture. Let’s imagine and analyze such a practical butt. It is clear that we are developing a microservice project for purchasing tickets. We have divided the domain model of the project so much that we have identified 4 microservices:
 
 - Reservation ticket service — responsible for tickets and orders.
 - Planning trips service — manages routes and trips.
 - Payment service — payment system integration and handles payments.
 - Notification service — sends notifications via email, sms, other.
+
+![image](source/service_structure_scheme.jpeg)
 
 UI plan
 
@@ -36,6 +40,8 @@ Cancel Order Page:
 - After purchasing the order, users can cancel it within a specified time frame, subject to cancellation policies.
 - The Cancel Order page allows users to view their order history and select the order they wish to cancel.
 - Users confirm the cancellation, and the system processes the request, providing a confirmation of the cancellation.
+
+![image](source/flow_scheme.jpeg)
 
 These pages together form the main user journey for booking trips, placing orders, and managing bookings in the application. Each page serves a specific purpose and provides users with the necessary functionality to complete their desired actions.
 
@@ -99,6 +105,8 @@ Payment Service:
 Queue:
 - EventQueue: Represents the message broker or queue system used for event communication. For Apache Kafka, use the KafkaProducer and KafkaConsumer classes to publish and consume events, respectively.
 By implementing this event-driven architecture, the system becomes more resilient, scalable, and decoupled, allowing for easier maintenance and evolution of the individual services.
+
+![image](source/microservice_interactions_scheme.jpeg)
 
 High level classes structure
 
