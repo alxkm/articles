@@ -1,5 +1,6 @@
 # Java: Pi4J IoT (Internet of things)
 
+![image](source/java_logo.jpeg)
 
 In the preceding article, we provided a concise overview of Java’s role within the IoT landscape, delving into the advantages it brings to the table and the potential drawbacks associated with its use in IoT development.
 
@@ -9,9 +10,10 @@ Despite these strengths, Java in IoT isn’t without its challenges. Some argue 
 
 Nevertheless, Java’s benefits often outweigh these drawbacks, especially in scenarios where rapid development, maintainability, and interoperability are paramount. Its extensive library support, active community, and mature tooling further solidify its position as a top choice for IoT developers leveraging the power of Java in their projects.
 
-Pi4J
+### Pi4J
 
-Pi4J
+![image](source/pi4j_logo.jpeg)
+
 In our previous article, we explored a selection of examples showcasing the capabilities of Pi4J, a library renowned for its seamless integration with IoT development on Raspberry Pi. These examples served as a practical demonstration of Pi4J’s ability to provide a smooth introduction to IoT, offering developers a straightforward yet powerful means to interact with GPIO pins and peripherals.
 
 Moreover, Pi4J’s appeal extends beyond its ease of use. By abstracting the complexities of low-level hardware interactions, Pi4J enables developers to focus on implementing their application logic rather than grappling with intricate hardware details. This abstraction layer not only simplifies the development process but also enhances code readability and maintainability.
