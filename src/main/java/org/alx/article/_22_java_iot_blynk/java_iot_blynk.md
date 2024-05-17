@@ -1,5 +1,7 @@
 # Java: Unlocking IoT Potential with Blynk (Internet of things)
 
+![image](source/java_logo.jpeg)
+
 Overview
 In previous article we reviewed Java tools to make IoT applications. Also we reviewed Pi4J for IoT. In this article we will review Blynk for IoT.
 
@@ -7,12 +9,14 @@ Blynk is a popular platform that simplifies the development of IoT (Internet of 
 
 Here’s an overview of Blynk platform and its components:
 
-- Blynk App: The Blynk mobile app (available for iOS and Android) serves as the interface for controlling and monitoring IoT devices. It allows users to create custom dashboards with widgets (buttons, sliders, graphs, gauges, etc.) to interact with connected devices, visualize sensor data, and receive notifications.
-- Blynk Cloud: Blynk Cloud acts as the backend infrastructure for managing device connections, data storage, and communication between devices and the Blynk app. It provides secure communication channels using protocols like MQTT (Message Queuing Telemetry Transport) and WebSocket.
-- Blynk Libraries: Blynk provides client libraries for various hardware platforms and programming languages, including Arduino, Raspberry Pi, ESP8266/ESP32, and Java. These libraries abstract the complexity of communication protocols and provide high-level APIs for interacting with the Blynk platform.
-- Blynk Server: For advanced users and organizations, Blynk offers a self-hosted Blynk Server solution. This allows users to deploy their own instance of the Blynk server on-premises or in the cloud, providing greater control over data privacy, scalability, and customization.
-- Blynk API: Blynk exposes RESTful APIs that allow developers to programmatically interact with the Blynk platform. This enables integration with third-party services, automation workflows, and custom applications.
+1. Blynk App: The Blynk mobile app (available for iOS and Android) serves as the interface for controlling and monitoring IoT devices. It allows users to create custom dashboards with widgets (buttons, sliders, graphs, gauges, etc.) to interact with connected devices, visualize sensor data, and receive notifications.
+2. Blynk Cloud: Blynk Cloud acts as the backend infrastructure for managing device connections, data storage, and communication between devices and the Blynk app. It provides secure communication channels using protocols like MQTT (Message Queuing Telemetry Transport) and WebSocket.
+3. Blynk Libraries: Blynk provides client libraries for various hardware platforms and programming languages, including Arduino, Raspberry Pi, ESP8266/ESP32, and Java. These libraries abstract the complexity of communication protocols and provide high-level APIs for interacting with the Blynk platform.
+4. Blynk Server: For advanced users and organizations, Blynk offers a self-hosted Blynk Server solution. This allows users to deploy their own instance of the Blynk server on-premises or in the cloud, providing greater control over data privacy, scalability, and customization.
+5. Blynk API: Blynk exposes RESTful APIs that allow developers to programmatically interact with the Blynk platform. This enables integration with third-party services, automation workflows, and custom applications.
 
+![image](source/blynk_1.jpeg)
+![image](source/blynk_2.jpeg)
 
 In the context of Java for IoT, the Blynk Java SDK enables developers to build IoT applications using Java programming language and seamlessly integrate them with the Blynk platform. With the Blynk Java SDK, developers can connect Java-based IoT devices to the Blynk Cloud, create custom dashboards in the Blynk app, and implement features such as data logging, remote control, and push notifications.
 
