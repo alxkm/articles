@@ -3,6 +3,8 @@
 
 ### Building Robust and Maintainable Software
 
+![image](source/java_logo.jpeg)
+
 ### Introduction
 
 Almost everyone likes to work on projects that start from scratch. However, not everyone succeeds in constructing a system that remains easily maintainable and adaptable after a year of development.Some, after a few months, make a second attempt, because they already know how to start correctly. It’s natural for the complexity of a system to increase as it grows. The success of developing such a system hinges on effectively managing its complexity. To aid in this endeavor, there exist design patterns, best practices, and, notably, design principles such as SOLID, GRASP, and DDD. This article aims to underscore the importance of SOLID as a fundamental component of a developer’s mindset, one that requires cultivation and refinement.
@@ -560,3 +562,4 @@ As the system evolves, its complexity naturally grows. It’s crucial to manage 
 
 In summary, the SOLID principles provide a foundational framework for writing maintainable, scalable, and robust software systems. By adhering to these principles, developers can design code that is easier to understand, modify, and extend over time. The principles emphasize the importance of single responsibility, open-closed behavior, Liskov substitution, interface segregation, and dependency inversion. By following these guidelines, software engineers can create codebases that are resilient to change, promote code reuse, and facilitate collaboration among team members. Robert Martin’s contributions to the field of software development, particularly through his books “Clean Code” and “Clean Coder,” have been instrumental in popularizing these principles and guiding developers towards writing cleaner, more efficient code.
 
+Full example you can find on [Github](https://github.com/alxkm/articles/tree/master/src/main/java/org/alx/article/_24_solid).
