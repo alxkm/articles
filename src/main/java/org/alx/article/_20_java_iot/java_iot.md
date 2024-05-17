@@ -2,6 +2,8 @@
 
 Java plays a significant role in the Internet of Things (IoT) ecosystem due to its platform independence, robustness, and scalability. Here’s how Java contributes to IoT:
 
+![image](source/java_logo.jpeg)
+
 - Platform Independence: Java’s “write once, run anywhere” philosophy makes it well-suited for IoT devices, which often have diverse hardware architectures and operating systems. Java applications can run on various devices without modification, simplifying development and deployment.
 - Scalability: Java’s multithreading capabilities and scalable infrastructure make it suitable for IoT solutions handling large volumes of data from numerous connected devices. Java’s ecosystem offers robust frameworks and libraries for building scalable IoT applications.
 - Security: Security is a critical concern in IoT deployments. Java provides built-in security features, such as secure coding practices, cryptographic libraries, and authentication mechanisms, which help developers build secure IoT solutions resistant to cyber threats.
@@ -22,6 +24,8 @@ Overall, Java’s versatility, scalability, security features, and compatibility
 - AWS IoT SDK for Java. The AWS IoT SDK for Java enables Java developers to interact with the AWS IoT platform, which includes device shadow support, MQTT messaging, and device management capabilities. It allows developers to build IoT applications that leverage AWS services for data processing, storage, and analytics.
 
 - Blynk. Blynk is a platform for building IoT applications that enables developers to create custom IoT dashboards and control IoT devices remotely. The Blynk Java library provides APIs for integrating Java applications with the Blynk platform, allowing developers to build IoT solutions with user-friendly interfaces.
+
+![image](source/pi4j_logo.jpeg)
 
 Let’s review simple example of Pi4J how easy it is.
 
