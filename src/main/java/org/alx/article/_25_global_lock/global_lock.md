@@ -4,6 +4,8 @@
 
 In the realm of concurrent programming, managing shared resources efficiently and safely is paramount. One of the fundamental tools for achieving this is the global lock. In this article, we delve into the world of global locks from the perspective of Java and Spring developers. We’ll explore what global locks are, why they’re essential, and how they can be implemented effectively within Java applications, particularly within the context of the Spring framework. By understanding the principles and practices surrounding global locks, developers can unlock greater performance and reliability in their concurrent applications.
 
+![image](source/spring.jpeg)
+
 ### Example
 
 Imagine a straightforward product purchasing scenario. The user is required to choose 2–3 items from a vast array of products, place an order, and furnish payment details. The server undertakes validation tasks, such as verifying the availability of the chosen product in stock. Subsequently, it executes the purchase transaction.
@@ -11,6 +13,8 @@ Imagine a straightforward product purchasing scenario. The user is required to c
 In this case, it’s necessary to synchronize the reduction of product inventory with the deduction of funds from the bank card. Herein lay the issue: when dozens, hundreds of users visited the site, it turned out that all of them successfully passed validation before the product inventory decreased.
 
 The design of database tables:
+
+![image](source/classes.jpeg)
 
 Table Store encompasses all available products for purchase, each identified by a primary key, id.
 
@@ -184,6 +188,8 @@ JdbcLockRegistry is the most common and widely used instance, which is worth exp
 But what happens if a record of locking is made in the database, and the code that initiated the transaction was intentionally closed by the user or terminated due to an error? Naturally, no one else will be able to lock this key anymore. To address such situations, developers have introduced the “when” field. This field allows us to limit our transaction by time.
 
 However, even the presence of the “when” field does not save us from another problem. Let’s consider a diagram taken from Martin Kleppmann’s article.
+
+![image](source/sequence_diagram.jpeg)
 
 The Lock table in this case implements the JdbcLockRegistry.
 
