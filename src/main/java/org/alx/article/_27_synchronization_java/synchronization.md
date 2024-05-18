@@ -2,14 +2,14 @@
 
 ![image](source/java.jpeg)
 
+If you are interested in multithreading and concurrency in Java, you may be interested in these articles:
 
-In the realm of concurrent programming, synchronization plays a pivotal role in ensuring the integrity and consistency of shared resources accessed by multiple threads. Whether you’re a seasoned Java developer seeking to deepen your understanding of synchronization or a newcomer eager to grasp its fundamentals, this article is your comprehensive guide to mastering synchronization techniques in Java.
-
-Throughout this article, we’ll explore the importance of synchronization, delve into the intricacies of locks and monitors, discuss best practices for synchronizing shared resources, and examine common synchronization patterns used in Java programming. By the end, you’ll have the knowledge and confidence to effectively synchronize concurrent operations in your Java applications, ensuring thread safety and preventing data corruption.
-
-So, let’s embark on a journey to unlock the secrets of synchronization in Java and elevate your concurrent programming skills to new heights!
-
-In Java, you can synchronize a piece of code using the synchronized keyword. This keyword can be applied to methods or code blocks to ensure that only one thread can execute that code at a time. Here’s how you can use it.
+1. [Mastering Synchronization: Best Practices and Patterns in Java](https://medium.com/@alxkm/mastering-synchronization-best-practices-and-patterns-in-java-86214b53211d)
+2. [Navigating Java’s Multithreading Terrain Pt. 1. Dining Philosophers](https://medium.com/@alxkm/navigating-javas-multithreading-terrain-dining-philosophers-34f1385e2150)
+3. [Navigating Java’s Multithreading Terrain Pt. 2](https://medium.com/@alxkm/navigating-javas-multithreading-terrain-part-2-fd0d541a973c)
+4. [Unlocking Concurrent Power: A Guide to java.util.concurrent Pt. 1](https://medium.com/@alxkm/unlocking-concurrent-power-a-guide-to-java-util-concurrent-pt-1-b1342edadad1)
+5. [Unlocking Concurrent Power: A Guide to java.util.concurrent Pt. 2.](https://medium.com/@alxkm/unlocking-concurrent-power-a-guide-to-java-util-concurrent-pt-2-056f1da1e74a)
+6. [Concurrency in Java: Best Practices and Performance Optimization](https://medium.com/@alxkm/concurrency-in-java-best-practices-and-performance-optimization-0dfd990f413b)
 
 ### Synchronizing a Method
 

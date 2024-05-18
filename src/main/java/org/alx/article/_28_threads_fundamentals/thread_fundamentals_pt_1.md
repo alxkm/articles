@@ -2,15 +2,15 @@
 
 ![image](source/title.jpeg)
 
-My other articles of concurrency and multithreading:
-> 
-HERE [Navigating Java’s Multithreading Terrain Pt. 1. Dining Philosophers](https://medium.com/@alxkm/navigating-javas-multithreading-terrain-dining-philosophers-34f1385e2150)
+If you are interested in multithreading and concurrency in Java, you may be interested in these articles:
 
-[Navigating Java’s Multithreading Terrain Pt. 2](https://medium.com/@alxkm/navigating-javas-multithreading-terrain-part-2-fd0d541a973c)
+1. [Mastering Synchronization: Best Practices and Patterns in Java](https://medium.com/@alxkm/mastering-synchronization-best-practices-and-patterns-in-java-86214b53211d)
+2. [Navigating Java’s Multithreading Terrain Pt. 1. Dining Philosophers](https://medium.com/@alxkm/navigating-javas-multithreading-terrain-dining-philosophers-34f1385e2150)
+3. [Navigating Java’s Multithreading Terrain Pt. 2](https://medium.com/@alxkm/navigating-javas-multithreading-terrain-part-2-fd0d541a973c)
+4. [Unlocking Concurrent Power: A Guide to java.util.concurrent Pt. 1](https://medium.com/@alxkm/unlocking-concurrent-power-a-guide-to-java-util-concurrent-pt-1-b1342edadad1)
+5. [Unlocking Concurrent Power: A Guide to java.util.concurrent Pt. 2.](https://medium.com/@alxkm/unlocking-concurrent-power-a-guide-to-java-util-concurrent-pt-2-056f1da1e74a)
+6. [Concurrency in Java: Best Practices and Performance Optimization](https://medium.com/@alxkm/concurrency-in-java-best-practices-and-performance-optimization-0dfd990f413b)
 
-[Unlocking Concurrent Power: A Guide to java.util.concurrent Pt. 1](https://medium.com/@alxkm/unlocking-concurrent-power-a-guide-to-java-util-concurrent-pt-1-b1342edadad1)
-
-[Unlocking Concurrent Power: A Guide to java.util.concurrent Pt. 2.](https://medium.com/@alxkm/unlocking-concurrent-power-a-guide-to-java-util-concurrent-pt-2-056f1da1e74a)
 
 Welcome back, fellow Java enthusiasts! If you’ve been following along with my blog, you’ve likely delved into the fascinating world of Java multithreading through various interview questions. Now, it’s time to take a step back and ensure we have a solid grasp on the fundamentals of this crucial topic.
 
