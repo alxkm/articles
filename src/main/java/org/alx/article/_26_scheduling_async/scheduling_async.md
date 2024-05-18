@@ -23,7 +23,7 @@ public class MyScheduledTasks {
     }
 
     @Scheduled(cron = "*/5 * * * * *") // Execute every 5 second
-    public void task2() {
+    public void task2() throws InterruptedException {
         // Task logic goes here
         System.out.println("Task 2 executed.");
         Thread.sleep(3000);
@@ -128,7 +128,7 @@ public class SchedulerConfig implements SchedulingConfigurer {
         taskRegistrar.setScheduler(taskExecutor());
     }
 
-    @Bean(destroyMethod = "shutdown")
+    @Bean
     public Executor taskExecutor() {
         return Executors.newScheduledThreadPool(10);
     }
@@ -172,3 +172,4 @@ Summary:
 
 n summary, the choice between using @Async annotation and custom configuration of ThreadPoolTaskExecutor depends on the complexity of your application, resource management requirements, and the level of control you need over the thread pool configuration. For simple cases, @Async may suffice, but for more demanding scenarios, custom configuration offers better control and scalability.
 
+You can find some examples at [Github](https://github.com/alxkm/articles/tree/master/src/main/java/org/alx/article/_26_scheduling_async).

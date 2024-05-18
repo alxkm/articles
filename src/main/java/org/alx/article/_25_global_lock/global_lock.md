@@ -239,3 +239,5 @@ Overall, while global locks provide a convenient mechanism for managing concurre
 
 Summary
 In summary, using global locks in Spring applications offers several advantages, including simplified concurrency management, ensured data integrity, and compatibility with various storage systems. However, it comes with potential drawbacks such as performance overhead, the risk of deadlocks, and scalability challenges in distributed environments. Therefore, while global locks provide a valuable tool for managing concurrent access to shared resources, careful consideration of their usage and implementation is necessary to mitigate these potential issues and ensure optimal application performance and reliability.
+
+Some examples you can find on [Github](https://github.com/alxkm/articles/tree/master/src/main/java/org/alx/article/_25_global_lock).
