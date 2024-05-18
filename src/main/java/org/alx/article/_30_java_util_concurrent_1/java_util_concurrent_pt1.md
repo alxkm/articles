@@ -323,3 +323,4 @@ Additionally, the discussion on atomic variables and atomic operations underscor
 
 Collectively, these topics illustrate the versatility and robustness of Java’s concurrency utilities, empowering developers to build scalable, responsive, and efficient multi-threaded applications. With a deep understanding of these concepts and tools, developers can navigate the complexities of concurrent programming with confidence, effectively harnessing the power of parallelism while mitigating common pitfalls and ensuring thread safety.
 
+You can find some examples at [Github](https://github.com/alxkm/articles/tree/master/src/main/java/org/alx/article/_30_java_util_concurrent_1).
