@@ -36,4 +36,5 @@ Articles:
 30. [Unlocking Concurrent Power: A Guide to java.util.concurrent Pt. 1](https://medium.com/@alxkm/unlocking-concurrent-power-a-guide-to-java-util-concurrent-pt-1-b1342edadad1)
 31. [Unlocking Concurrent Power: A Guide to java.util.concurrent Pt. 2](https://medium.com/@alxkm/unlocking-concurrent-power-a-guide-to-java-util-concurrent-pt-2-056f1da1e74a)
 32. [Concurrency in Java: Best Practices and Performance Optimization](https://medium.com/@alxkm/concurrency-in-java-best-practices-and-performance-optimization-0dfd990f413b)
-
+33. [GRASP: Guiding Object-Oriented Design in Java](https://medium.com/@alxkm/grasp-guiding-object-oriented-design-in-java-0f3e4d12a479)
+34. [Crafting Cleaner Java Code: Exploring DRY, KISS and YAGNI Principles](https://medium.com/@alxkm/crafting-cleaner-java-code-exploring-dry-kiss-and-yagni-principles-a6dc6a25abee)
