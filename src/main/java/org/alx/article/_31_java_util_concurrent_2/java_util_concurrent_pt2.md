@@ -312,3 +312,4 @@ Phaser offers a flexible synchronization barrier mechanism for coordinating thre
 
 Incorporating these concurrency mechanisms into Java applications empowers developers to build responsive, scalable, and efficient concurrent solutions, enabling them to tackle diverse concurrency challenges and harness the full potential of multi-threaded programming in Java.
 
+You can find some examples at [Github](https://github.com/alxkm/articles/tree/master/src/main/java/org/alx/article/_31_java_util_concurrent_2).
