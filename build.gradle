@@ -5,11 +5,26 @@ plugins {
 group 'org.alx.article'
 version '1.0-SNAPSHOT'
 
+sourceCompatibility = 1.21
+targetCompatibility = 1.21
+
 repositories {
     mavenCentral()
 }
 
+compileJava {
+    options.compilerArgs += ['--enable-preview']
+}
+
 dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-integration:3.2.5'
+    implementation 'org.springframework.integration:spring-integration-core:6.2.4'
+
+
+    implementation 'org.springframework:spring-tx:6.1.7'
+
+    implementation 'org.springframework:spring-context:6.1.7'
+
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }
