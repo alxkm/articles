@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="sender" class="org.alx.article._37_spring_beans.EmailSender"
+          init-method="init" destroy-method="destroy"/>
+
+    <bean id="emailNotificationService"
+          class="org.alx.article._37_spring_beans.EmailNotificationService">
+        <constructor-arg ref="sender"></constructor-arg>
+    </bean>
+</beans>
