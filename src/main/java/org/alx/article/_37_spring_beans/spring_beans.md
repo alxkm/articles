@@ -502,4 +502,5 @@ In conclusion, Spring offers multiple approaches for configuring beans within an
 
 In summary, the choice of configuration approach depends on the specific requirements, preferences, and constraints of the project. While XML configuration offers flexibility and separation of concerns, annotation-based and Java-based configurations provide convenience and type safety. Functional registration, on the other hand, offers a more concise and expressive way to define bean configurations, especially for modern, functional programming-oriented projects. Ultimately, understanding the strengths and trade-offs of each approach is essential in making informed decisions when configuring Spring applications.
 
+Full example you can find on [Github](https://github.com/alxkm/articles/tree/master/src/main/java/org/alx/article/_37_spring_beans).
 
