@@ -191,3 +191,5 @@ One key aspect to consider when using pattern matching in switch statements is t
 Additionally, pattern matching in switch statements helps improve code safety and maintainability by providing compile-time checks for exhaustiveness and type coverage. This helps catch potential bugs early in the development process and ensures that all possible cases are handled appropriately.
 
 Overall, pattern matching in switch statements enhances the expressiveness and robustness of Java code, making it a valuable addition to the language for developers working with complex conditional logic and type hierarchies.
+
+You can find examples at [Github](https://github.com/alxkm/articles/tree/master/src/main/java/org/alx/article/_36_new_switch_case_java).
