@@ -38,3 +38,6 @@ Articles:
 32. [Concurrency in Java: Best Practices and Performance Optimization](https://medium.com/@alxkm/concurrency-in-java-best-practices-and-performance-optimization-0dfd990f413b)
 33. [GRASP: Guiding Object-Oriented Design in Java](https://medium.com/@alxkm/grasp-guiding-object-oriented-design-in-java-0f3e4d12a479)
 34. [Crafting Cleaner Java Code: Exploring DRY, KISS and YAGNI Principles](https://medium.com/@alxkm/crafting-cleaner-java-code-exploring-dry-kiss-and-yagni-principles-a6dc6a25abee)
+35. [Java Mastery: Advancing Beyond SOLID with Abstraction, Extensibility, and Cohesion](https://medium.com/@alxkm/java-mastery-advancing-beyond-solid-with-abstraction-extensibility-and-cohesion-d2d0c07a342d)
+36. [Java’s Pattern Matching: Simplifying Conditional Logic and Type Checking](https://medium.com/@alxkm/javas-pattern-matching-simplifying-conditional-logic-and-type-checking-f9f1425f7c03)
+37. [Tracing the Evolution of Spring Beans: The Evolution of Spring Beans in the Java Ecosystem](https://medium.com/@alxkm/tracing-the-evolution-of-spring-beans-the-evolution-of-spring-beans-in-the-java-ecosystem-58be3cd7d778)

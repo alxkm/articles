@@ -19,11 +19,40 @@ compileJava {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-integration:3.2.5'
     implementation 'org.springframework.integration:spring-integration-core:6.2.4'
+    implementation 'org.springframework:spring-jdbc:6.1.7'
+
+    // https://mvnrepository.com/artifact/org.springframework/spring-context-support
+    implementation group: 'org.springframework', name: 'spring-context-support', version: '5.3.35'
+
+
+    // https://mvnrepository.com/artifact/javax.servlet/servlet-api
+    implementation 'javax.servlet:servlet-api:2.5'
+
+    // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
+    implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5'
+
+    // https://mvnrepository.com/artifact/org.springframework/spring-web
+    implementation group: 'org.springframework', name: 'spring-web', version: '3.0.2.RELEASE'
+
+    // https://mvnrepository.com/artifact/org.springframework/spring-webflux
+    implementation group: 'org.springframework', name: 'spring-webflux', version: '5.3.35'
+
+    // https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp
+    implementation group: 'com.squareup.okhttp3', name: 'okhttp', version: '4.12.0'
+
+    // https://mvnrepository.com/artifact/org.apache.commons/commons-collections4
+    implementation group: 'org.apache.commons', name: 'commons-collections4', version: '4.4'
 
 
     implementation 'org.springframework:spring-tx:6.1.7'
 
     implementation 'org.springframework:spring-context:6.1.7'
+
+    compileOnly 'org.projectlombok:lombok:1.18.32'
+    annotationProcessor 'org.projectlombok:lombok:1.18.32'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.32'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.32'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
