@@ -41,3 +41,8 @@ Articles:
 35. [Java Mastery: Advancing Beyond SOLID with Abstraction, Extensibility, and Cohesion](https://medium.com/@alxkm/java-mastery-advancing-beyond-solid-with-abstraction-extensibility-and-cohesion-d2d0c07a342d)
 36. [Java’s Pattern Matching: Simplifying Conditional Logic and Type Checking](https://medium.com/@alxkm/javas-pattern-matching-simplifying-conditional-logic-and-type-checking-f9f1425f7c03)
 37. [Tracing the Evolution of Spring Beans: The Evolution of Spring Beans in the Java Ecosystem](https://medium.com/@alxkm/tracing-the-evolution-of-spring-beans-the-evolution-of-spring-beans-in-the-java-ecosystem-58be3cd7d778)
+38. [Builder Pattern Variations and Best Practices](https://medium.com/@alxkm/builder-pattern-variations-and-best-practices-643b6631341f)
+39. [Java Architecture Blueprint: Strategies for Scalable and Reliable Apps](https://medium.com/@alxkm/java-architecture-blueprint-strategies-for-scalable-and-reliable-apps-034e8667fb3f)
+40. [Decorator Pattern: Elevating Code Flexibility](https://medium.com/@alxkm/decorator-pattern-elevating-code-flexibility-01cc0966551a)
+41. [Effective Use of ThreadLocal in Java Applications](https://medium.com/@alxkm/effective-use-of-threadlocal-in-java-applications-f4eb6a648d4a)
+42. [Choosing the Right Collection in Java](https://medium.com/@alxkm/choosing-the-right-collection-in-java-c59784fdc9c8)
