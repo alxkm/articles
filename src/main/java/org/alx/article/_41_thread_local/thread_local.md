@@ -1,4 +1,4 @@
-# ThreadLocal
+# Effective Use of ThreadLocal in Java Applications
 
 ![image](source/title.jpeg)
 
