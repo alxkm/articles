@@ -312,3 +312,5 @@ Maps store key-value pairs where each key is unique. HashMap, LinkedHashMap, and
 When choosing the right collection for your Java application, consider your specific requirements and use cases. For most scenarios, ArrayList, HashMap, and HashSet provide efficient solutions covering a wide range of use cases. However, if you need specific ordering guarantees, sorted elements, or specialized behavior, other implementations such as LinkedList, LinkedHashMap, and TreeMap may be more suitable.
 
 By understanding the strengths and weaknesses of each collection type and choosing based on your application's requirements, you can ensure optimal performance and behavior tailored to your needs.
+
+You can find some examples at [Github](https://github.com/alxkm/articles/tree/master/src/main/java/org/alx/article/_42_choosing_the_right_collection_in_java).

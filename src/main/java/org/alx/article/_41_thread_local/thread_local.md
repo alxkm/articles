@@ -182,3 +182,5 @@ public class ThreadLocalExample {
 
 
 Overall, ThreadLocal provides a convenient and efficient way to manage thread-specific data in Java applications, promoting modularity, reusability, and thread safety. However, it's important to use ThreadLocal judiciously and be mindful of potential memory leaks or concurrency issues, especially in long-running applications or in environments with thread pooling.
+
+You can find some examples at [Github](https://github.com/alxkm/articles/tree/master/src/main/java/org/alx/article/_41_thread_local).

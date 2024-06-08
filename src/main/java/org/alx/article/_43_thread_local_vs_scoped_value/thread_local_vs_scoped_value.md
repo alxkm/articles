@@ -201,3 +201,5 @@ public class ScopedValueExample {
 ThreadLocal is better for use, Applications with a traditional thread-per-request model and scenarios where each thread needs its own independent and mutable data. Also there are a lot Legacy systems where thread-specific storage is needed.
 ScopedValue use cases are Modern applications leveraging structured concurrency and virtual threads. Also for cases requiring immutable data that needs to be safely shared within a specific execution context. New projects where clean and manageable context propagation is a priority.
 By carefully considering the nature of your application's concurrency requirements and the characteristics of the data you need to manage, you can choose the right tool ThreadLocal for thread-specific mutable state, or ScopedValue for scoped, immutable context propagation in modern concurrency models.
+
+You can find some examples at [Github](https://github.com/alxkm/articles/tree/master/src/main/java/org/alx/article/_43_thread_local_vs_scoped_value).

@@ -172,3 +172,5 @@ Using of a builder pattern to address limitations when dealing with final fields
 The description suggests that due to the inability to use the final keyword with a builder, or to create constructors with a large number of parameters, the builder pattern offers a solution. It explains that the builder pattern allows for the creation of objects with mutable fields during the building process, but once the object is constructed, the fields become immutable.
 
 In essence, the builder pattern provides flexibility during object construction by allowing for the setting of individual fields in a fluent manner, while still ensuring immutability once the object is fully constructed. This approach allows for cleaner, more maintainable code while adhering to principles of immutability where desired.
+
+You can find some examples at [Github](https://github.com/alxkm/articles/tree/master/src/main/java/org/alx/article/_38_builder).
