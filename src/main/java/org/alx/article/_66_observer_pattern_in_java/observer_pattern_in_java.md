@@ -207,3 +207,5 @@ These are just a few examples of how the Observer Pattern is utilized inside fra
 ## Conclusion
 
 The Observer Pattern is a powerful design pattern that addresses the need for a flexible and efficient way to propagate changes throughout a system. By decoupling subjects from their observers, it enables the development of scalable, maintainable, and responsive applications. Understanding and leveraging this pattern can significantly enhance the robustness and adaptability of your software solutions.
+
+Full example you can find on [Github](https://github.com/alxkm/articles/blob/master/src/main/java/org/alx/article/_66_observer_pattern_in_java/ObserverPatternDemo.java).
